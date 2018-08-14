@@ -1,0 +1,23 @@
+{
+  "name": "bubble-tip",
+  "version": "0.0.1",
+  "description": "一个简单的文字提示插件，可以替换原生title提示",
+  "main": "src/bubbleTip.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bubble-tip/bubble-tip.git"
+  },
+  "keywords": [
+    "tip",
+    "title"
+  ],
+  "author": "linjingming",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bubble-tip/bubble-tip/issues"
+  },
+  "homepage": "https://github.com/bubble-tip/bubble-tip#readme"
+}
