@@ -7,7 +7,7 @@ $.fn.bubbleTip = function(settings){
         left: 0,
         timeout: 300
     };
-    var oName = {left: 'direction-left',right: 'direction-right',bottom: 'direction-bottom'};
+    var oName = {right: 'direction-left', left: 'direction-right', top: 'direction-bottom'};
     settings = $.extend({},defaultSettings,settings);
     return this.each(function(){
         var elem = $(this), ew,eh, w,h;
@@ -34,19 +34,19 @@ $.fn.bubbleTip = function(settings){
             eh = elem.outerHeight();
             w = $bubble.outerWidth();
             h = $bubble.outerHeight();
-            if(settings.action == 'right'){
+            if(settings.action == 'left'){
                 top = top - h/2 + eh/2;
                 left = left - w - 10;
             }
-            if(settings.action == 'left'){
+            if(settings.action == 'right'){
                 top = top - h/2 + eh/2;
                 left = left + ew + 10;
             }
-            if(settings.action == 'top'){
+            if(settings.action == 'bottom'){
                 top = top + eh + 10;
                 left = left - (w - ew)/2;
             }
-            if(settings.action == 'bottom'){
+            if(settings.action == 'top'){
                 top = top - h - 10;
                 left = left - (w - ew)/2;
             }

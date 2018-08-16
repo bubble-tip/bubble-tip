@@ -10,6 +10,10 @@ npm install bubble-tip --save
 ```
 ```js
     $('#test').bubbleTip();
+    $('#test').bubbleTip({
+        width: 500 // 设置宽 不设置自适应
+        action: 'left' // 值可以为 'top', 'bottom', 'left', 'right' 默认'top' 表示提示位置方向
+    });
 ```
 ## 简单说明文档
 - [使用文档]

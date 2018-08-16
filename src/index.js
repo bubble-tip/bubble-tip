@@ -1,1 +1,4 @@
-$('#test').bubbleTip();
+$('#test').bubbleTip({
+    width: 300,
+    action: 'left'
+});
