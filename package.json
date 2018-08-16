@@ -1,6 +1,6 @@
 {
   "name": "bubble-tip",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "一个简单的文字提示插件，可以替换原生title提示",
   "main": "index.js",
   "scripts": {
